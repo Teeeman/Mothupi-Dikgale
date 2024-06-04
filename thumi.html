@@ -1,0 +1,126 @@
+<html>
+    <head>
+        <meta charset="UTF"-8>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+        <div class="container">
+            <div class="nav-bar">
+                <h1 class="title">Tumisho<span> CAFFEE</span></h1>
+                <p>ONLY THE BEST.</p>
+                <ul class="menu">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#">PRODUCT</a></li>
+                    <li><a href="#">SERVICE</a></li>
+                    <li><a href="thum.html">MENU</a></li>
+                    </ul>
+            </div>
+            <div class="home">
+                <h1 class="title-1">Only the best to serve your worth.</h1>
+                <p>Lets make it a classic one..</p>
+                <button type="button">buy now</button>
+            </div>
+        </div>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Dedicated to serve you the uniquely and the best coffee in the city.</p>
+            <p>Our story begin here..enjoy</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Address: 123 Main st Sandton Revonia, SA</p>
+            <p>Phone: </p>
+            <p>Email: <a href="mailto:info@tumishocaffee.com">info@tumishocaffee.com</a></p>
+        </section>
+            <p> &copy; 2024 Tumisho Caffee</p>
+    </body>
+    <style>           
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(tee.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;   
+}
+.nav-bar .title{
+    color: grey;
+    font-size: 50px;
+    font-weight: 600;
+    cursor: pointer;
+}
+span{
+    color: brown;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+}
+.nav-bar p{
+    position: absolute;
+    margin-top: 90;
+    margin-left: 50;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 500;
+}
+.menu li a{
+    text-decoration: none;
+    columns: grey;
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 25px;
+    transition: .4s ease;
+}
+.menu li a:hover{
+    color:blueviolet;
+    padding: 5px 10px;
+    border: 2px solid #ffffff2a;
+}
+.home{
+    height: 400px;
+    padding: 70px;
+}
+.title-1{
+    font-size: 47px;
+    color: #ffffffc4;
+    font-weight: 600;
+}
+.home p{
+    color: beige;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.home button{
+    height: 40px;
+    color: #ffffffd0;
+    background: rgb(65, 2, 14);
+    font-size: 18px;
+    padding: 5px 30px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    transition: .4s ease;
+    cursor: pointer;
+}
+.home button:hover{  
+    background: none;
+    border: 20x solid gray;
+}
+     </style>
+</html>
